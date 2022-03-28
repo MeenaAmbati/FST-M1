@@ -9,7 +9,7 @@ public class Activity6_VerifyActivityMenu {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\GrandhiLavanya\\Downloads\\chromedriver_win89\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\MeenaAmbati\\Downloads\\chromedriver_win89\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://alchemy.hguy.co/crm/index.php?action=Login&module=Users");
 		driver.manage().window().maximize();
